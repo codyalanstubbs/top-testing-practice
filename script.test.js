@@ -11,5 +11,5 @@ test('capitalize first letter of string only', () => {
 });
 
 test('string reversal', () => {
-    expect(reverseString("string").toBe("gnirts"));
+    expect(reverseString("string")).toBe("gnirts");
 });
