@@ -1,0 +1,23 @@
+{
+  "name": "top-testing-practice",
+  "version": "1.0.0",
+  "description": "A project to practice using jest for test-driven development.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyalanstubbs/top-testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codyalanstubbs/top-testing-practice/issues"
+  },
+  "homepage": "https://github.com/codyalanstubbs/top-testing-practice#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
