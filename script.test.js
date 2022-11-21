@@ -1,5 +1,5 @@
 import {
-    script, capitalize, reverseString
+    capitalize, reverseString
 } from './script.js';
 
 test('adds 1 + 2 to equal 3', () => {
