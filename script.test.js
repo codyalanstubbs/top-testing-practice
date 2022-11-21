@@ -11,17 +11,17 @@ test('string reversal', () => {
 });
 
 test('add 1 and 1', () => {
-    expect(calculator.add(1,1).toBe(2));
+    expect(calculator().add(1,1)).toBe(2);
 });
 
 test('subtract 1 and 1', () => {
-    expect(calculator.subtract(1,1).toBe(0));
+    expect(calculator().subtract(1,1)).toBe(0);
 });
 
 test('divide 1 and 1', () => {
-    expect(calculator.divide(1,1).toBe(1));
+    expect(calculator().divide(1,1)).toBe(1);
 });
 
 test('multiply 1 and 1', () => {
-    expect(calculator.multiply(1,1).toBe(1));
+    expect(calculator().multiply(1,1)).toBe(1);
 });
