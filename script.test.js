@@ -1,5 +1,7 @@
-const script = require('./script');
+import {
+    script
+} from './script.js';
 
 test('adds 1 + 2 to equal 3', () => {
-  expect(script(1, 2)).toBe(3);
+    expect(script(1, 2)).toBe(3);
 });

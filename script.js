@@ -1,4 +1,3 @@
-function script(a, b) {
+export function script(a, b) {
     return a + b;
-  }
-  module.exports = script;
+}
