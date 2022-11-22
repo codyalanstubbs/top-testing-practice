@@ -69,3 +69,32 @@ const cypherizeLetter = (letter, cipherNumber, letterCase) => {
     } 
     return newLetter;
 }
+
+export const analyzeArray = (array) => {
+    const getAverage = (array) => {
+        let sum = 0;
+        array.forEach((element) => sum += element);
+        return sum / array.length;
+    }
+
+    const getMin = (array) => {
+        let min = array[0];
+        array.forEach((element) => {if (element < min) min = element});
+        return min;
+    };
+
+    const getMax = (array) => {
+        let max = array[0];
+        array.forEach((element) => {if (element > max) max = element});
+        return max;
+    };
+
+    const getLength = (array) => {return array.length};
+
+    return {
+        average: getAverage(array), 
+        min: getMin(array), 
+        max: getMax(array), 
+        length: getLength(array)
+    };
+}
