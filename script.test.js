@@ -40,5 +40,5 @@ test('cesarCipher maintain capital letters', () => {
 });
 
 test('cesarCipher maintain punctuation', () => {
-    expect(cesarCipher('Also, test for puncation!', 1)).toBe('bmtp, uftu gps qvoduvbujpo!');
+    expect(cesarCipher('Also, test for punctuation!', 1)).toBe('Bmtp, uftu gps qvoduvbujpo!');
 });
